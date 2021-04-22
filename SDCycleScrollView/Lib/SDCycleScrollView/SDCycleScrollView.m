@@ -33,7 +33,7 @@
 #import "SDCollectionViewCell.h"
 #import "UIView+SDExtension.h"
 #import "SDPageControl.h"
-#import "SDWebImageManager.h"
+#import <SDWebImage/SDWebImageManager.h>
 #import "UIImageView+WebCache.h"
 
 #define kCycleScrollViewInitialPageControlDotSize CGSizeMake(10, 10)
