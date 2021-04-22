@@ -1,6 +1,6 @@
 //
-//  TAPageControl.h
-//  TAPageControl
+//  SDPageControl.h
+//  SDPageControl
 //
 //  Created by Tanguy Aladenise on 2015-01-21.
 //  Copyright (c) 2015 Tanguy Aladenise. All rights reserved.
@@ -8,10 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@protocol TAPageControlDelegate;
+@protocol SDPageControlDelegate;
 
 
-@interface TAPageControl : UIControl
+@interface SDPageControl : UIControl
 
 
 /**
@@ -19,7 +19,7 @@
  */
 
 /**
- *  The Class of your custom UIView, make sure to respect the TAAbstractDotView class.
+ *  The Class of your custom UIView, make sure to respect the SDAbstractDotView class.
  */
 @property (nonatomic) Class dotViewClass;
 
@@ -56,9 +56,9 @@
 
 
 /**
- * Delegate for TAPageControl
+ * Delegate for SDPageControl
  */
-@property(nonatomic,assign) id<TAPageControlDelegate> delegate;
+@property(nonatomic,assign) id<SDPageControlDelegate> delegate;
 
 
 /**
@@ -98,9 +98,9 @@
 @end
 
 
-@protocol TAPageControlDelegate <NSObject>
+@protocol SDPageControlDelegate <NSObject>
 
 @optional
-- (void)TAPageControl:(TAPageControl *)pageControl didSelectPageAtIndex:(NSInteger)index;
+- (void)SDPageControl:(SDPageControl *)pageControl didSelectPageAtIndex:(NSInteger)index;
 
 @end

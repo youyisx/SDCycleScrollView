@@ -1,16 +1,16 @@
 //
-//  TAAnimatedDotView.m
-//  TAPageControl
+//  SDAnimatedDotView.m
+//  SDPageControl
 //
 //  Created by Tanguy Aladenise on 2015-01-22.
 //  Copyright (c) 2015 Tanguy Aladenise. All rights reserved.
 //
 
-#import "TAAnimatedDotView.h"
+#import "SDAnimatedDotView.h"
 
 static CGFloat const kAnimateDuration = 1;
 
-@implementation TAAnimatedDotView
+@implementation SDAnimatedDotView
 
 - (instancetype)init
 {

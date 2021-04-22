@@ -1,14 +1,14 @@
 //
-//  TAAnimatedDotView.h
-//  TAPageControl
+//  SDAnimatedDotView.h
+//  SDPageControl
 //
 //  Created by Tanguy Aladenise on 2015-01-22.
 //  Copyright (c) 2015 Tanguy Aladenise. All rights reserved.
 //
 
-#import "TAAbstractDotView.h"
+#import "SDAbstractDotView.h"
 
-@interface TAAnimatedDotView : TAAbstractDotView
+@interface SDAnimatedDotView : SDAbstractDotView
 
 @property (nonatomic, strong) UIColor *dotColor;
 
