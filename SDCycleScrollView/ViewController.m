@@ -31,8 +31,7 @@
 #import "ViewController.h"
 #import "SDCycleScrollView.h"
 #import "CustomCollectionViewCell.h"
-#import "UIImageView+WebCache.h"
-
+#import <SDWebImage/UIImageView+WebCache.h>
 @interface ViewController () <SDCycleScrollViewDelegate>
 
 @end
